@@ -1,7 +1,7 @@
 #ifndef CIRCLE_HPP
 #define CIRCLE_HPP
 
-#include "header/plot.hpp"
+#include "include/plot.hpp"
 
 class circle {
 

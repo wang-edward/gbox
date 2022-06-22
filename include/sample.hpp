@@ -6,8 +6,8 @@
 #include "al/graphics/al_Shapes.hpp"
 #include <iostream>
 #include <random>
-#include "header/circle.hpp"
-#include "header/plot.hpp"
+#include "include/circle.hpp"
+#include "include/plot.hpp"
 #include <cstdlib>
 
 class sample {

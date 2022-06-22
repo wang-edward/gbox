@@ -6,7 +6,7 @@
 #include "al/graphics/al_Graphics.hpp"
 #include "al/graphics/al_Font.hpp"
 #include "al/io/al_AudioIO.hpp"
-#include "header/plot.hpp"
+#include "include/plot.hpp"
 
 class mpc  {
 
