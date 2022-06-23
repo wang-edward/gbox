@@ -29,3 +29,4 @@ apps/
 .DS_Store
 allolib
 al_ext
+.vscode/settings.json

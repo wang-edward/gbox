@@ -17,7 +17,8 @@ void mpc:: init_font() {
 void mpc:: init_files() {
     std::string path = "./data/samples";
     int i=0;
-    for (const auto& file : std::__fs::filesystem::directory_iterator(path)) {
+    for (const auto& file : std::filesystem::directory_iterator(path)) {
+    // for (const auto& file : std::__fs::filesystem::directory_iterator(path)) {
         if (i>=NUMBER_SAMPLES) {
             break;
         }

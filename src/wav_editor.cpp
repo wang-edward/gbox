@@ -8,7 +8,8 @@ void wav_editor:: init() {
 void wav_editor:: init_path() {
     std::string path = "./data/samples";
     int i=0;
-    for (const auto& file : std::__fs::filesystem::directory_iterator(path)) {
+    for (const auto& file : std::filesystem::directory_iterator(path)) {
+    // for (const auto& file : std::__fs::filesystem::directory_iterator(path)) {
         std::string s = file.path();
         load_path(s.c_str()); //convert string to const char*
         std::cout<< s.substr(2,s.length())<<std::endl; //skip "./" in file path

@@ -10,7 +10,8 @@ void timeline:: init_files() {
     // TODO get rid of DS_Store
     std::string path = "./data";
     int i=0;
-    for (const auto& file : std::__fs::filesystem::directory_iterator(path)) {
+    for (const auto& file : std::filesystem::directory_iterator(path)) {
+    // for (const auto& file : std::__fs::filesystem::directory_iterator(path)) {
         if (i>=NUMBER_TRACKS) {
             break;
         }
