@@ -6,7 +6,7 @@ rm -rf .git
 
 git init
 # add allolib as a submodule
-git submodule add https://github.com/AlloSphere-Research-Group/allolib.git
-git submodule add https://github.com/AlloSphere-Research-Group/al_ext.git
+git submodule add -f https://github.com/AlloSphere-Research-Group/allolib.git
+git submodule add -f https://github.com/AlloSphere-Research-Group/al_ext.git
 
 git submodule update --recursive --init --depth=50
